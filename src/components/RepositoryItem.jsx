@@ -4,7 +4,7 @@ export function ReposityItem(props) {
     <strong>{props.repository}</strong>
     <p>{props.description}</p>
 
-    <a href={props.html_url}>
+    <a href={props.html_url} target="blank">
       Acessar repositório</a>
   </li>
   )
