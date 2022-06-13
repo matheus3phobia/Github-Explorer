@@ -13,7 +13,7 @@ export function ReposityItem(props: RepositoryItemProps) {
     <p>{props.repository.description}</p>
 
     <a href={props.repository.html_url} target="blank">
-      Acessar repositório</a>
+      Access Repository</a>
   </li>
   )
 }
